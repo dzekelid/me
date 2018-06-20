@@ -1,0 +1,92 @@
+---
+swagger: "2.0"
+x-collection-name: Google Beacons
+x-complete: 0
+info:
+  title: Google Proximity Beacon API Delete Attachment
+  description: |-
+    Deletes the specified attachment for the given beacon. Each attachment has
+    a unique attachment name (`attachmentName`) which is returned when you
+    fetch the attachment data via this API. You specify this with the delete
+    request to control which attachment is removed. This operation cannot be
+    undone.
+
+    Authenticate using an [OAuth access token](https://developers.google.com/identity/protocols/OAuth2)
+    from a signed-in user with **Is owner** or **Can edit** permissions in the
+    Google Developers Console project.
+  contact:
+    name: Google
+    url: https://google.com
+  version: v1beta1
+host: proximitybeacon.googleapis.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /v1beta1/namespaces:
+    get:
+      summary: Get Namespace
+      description: |-
+        Lists all attachment namespaces owned by your Google Developers Console
+        project. Attachment data associated with a beacon must include a
+        namespaced type, and the namespace must be owned by your project.
+
+        Authenticate using an [OAuth access token](https://developers.google.com/identity/protocols/OAuth2)
+        from a signed-in user with **viewer**, **Is owner** or **Can edit**
+        permissions in the Google Developers Console project.
+      operationId: proximitybeacon.namespaces.list
+      x-api-path-slug: v1beta1namespaces-get
+      parameters:
+      - in: query
+        name: projectId
+        description: The project id to list namespaces under
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespace
+  /v1beta1/{attachmentName}:
+    delete:
+      summary: Delete Attachment
+      description: |-
+        Deletes the specified attachment for the given beacon. Each attachment has
+        a unique attachment name (`attachmentName`) which is returned when you
+        fetch the attachment data via this API. You specify this with the delete
+        request to control which attachment is removed. This operation cannot be
+        undone.
+
+        Authenticate using an [OAuth access token](https://developers.google.com/identity/protocols/OAuth2)
+        from a signed-in user with **Is owner** or **Can edit** permissions in the
+        Google Developers Console project.
+      operationId: proximitybeacon.beacons.attachments.delete
+      x-api-path-slug: v1beta1attachmentname-delete
+      parameters:
+      - in: path
+        name: attachmentName
+        description: The attachment name (`attachmentName`) ofthe attachment to remove
+      - in: query
+        name: projectId
+        description: The project id of the attachment to delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Attachment
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
