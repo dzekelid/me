@@ -4,7 +4,7 @@ description: This is a repository of me APIs, self-contained as a Github reposit
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/me.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://me.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -262,6 +262,42 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/github/apis.yaml
 - name: YouTube
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/youtube/apis.yaml
+- name: Instagram
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/instagram/apis.yaml
+- name: Quandl
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/quandl/apis.yaml
+- name: API Science
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/api-science/apis.yaml
+- name: APImetrics
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/apimetrics/apis.yaml
+- name: BMC Software
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bmc-software/apis.yaml
+- name: Datadog
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/datadog/apis.yaml
+- name: New Relic
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/new-relic/apis.yaml
+- name: PagerDuty
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/pagerduty/apis.yaml
+- name: StatusPage
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/statuspage/apis.yaml
+- name: CloudFlare
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/cloudflare/apis.yaml
+- name: Dyn
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/dyn/apis.yaml
+- name: AWS CloudSearch
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/aws-cloudsearch/apis.yaml
+- name: Google Doubleclick
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-doubleclick/apis.yaml
+- name: Google Play
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-play/apis.yaml
+- name: Google Cloud Deployment Manager
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-cloud-deployment-manager/apis.yaml
+- name: Google Plus
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-plus/apis.yaml
+- name: Google Apps Admin SDK
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-apps-admin-sdk/apis.yaml
+- name: Firebase
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/firebase/apis.yaml
 - name: Lykke
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/lykke/apis.yaml
 - name: Microsoft Office 365
@@ -296,42 +332,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bank-of-ireland/apis.yaml
 - name: Bank of Scotland
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bank-of-scotland/apis.yaml
-- name: Instagram
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/instagram/apis.yaml
-- name: Quandl
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/quandl/apis.yaml
-- name: API Science
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/api-science/apis.yaml
-- name: APImetrics
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/apimetrics/apis.yaml
-- name: BMC Software
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bmc-software/apis.yaml
-- name: Datadog
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/datadog/apis.yaml
-- name: New Relic
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/new-relic/apis.yaml
-- name: PagerDuty
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/pagerduty/apis.yaml
-- name: StatusPage.io
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/statuspage-io/apis.yaml
-- name: CloudFlare
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/cloudflare/apis.yaml
-- name: Dyn
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/dyn/apis.yaml
-- name: AWS CloudSearch
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/aws-cloudsearch/apis.yaml
-- name: Google Doubleclick
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-doubleclick/apis.yaml
-- name: Google Play
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-play/apis.yaml
-- name: Google Cloud Deployment Manager
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-cloud-deployment-manager/apis.yaml
-- name: Google Plus
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-plus/apis.yaml
-- name: Google Apps Admin SDK
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-apps-admin-sdk/apis.yaml
-- name: Firebase
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/firebase/apis.yaml
 - name: Royal Bank of Scotland
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/royal-bank-of-scotland/apis.yaml
 - name: HSBC
@@ -378,16 +378,6 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/xignite/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/xignite/apis.yaml
-- name: ParallelDots
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/paralleldots/apis.yaml
-- name: VersaPay
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/versapay/apis.yaml
-- name: AXA Assistance
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/axa-assistance/apis.yaml
-- name: Healthcare.gov
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/healthcare-gov/apis.yaml
-- name: Healthcare.gov
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/healthcare-gov/apis.yaml
 - name: Eventbrite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/eventbrite/apis.yaml
 - name: Dropbox
@@ -412,6 +402,16 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/ibm-watson/apis.yaml
 - name: Twitter
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/twitter/apis.yaml
+- name: ParallelDots
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/paralleldots/apis.yaml
+- name: VersaPay
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/versapay/apis.yaml
+- name: AXA Assistance
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/axa-assistance/apis.yaml
+- name: Healthcare.gov
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/healthcare-gov/apis.yaml
+- name: Healthcare.gov
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/healthcare-gov/apis.yaml
 - name: Gitter
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/gitter/apis.yaml
 - name: Mattermost
@@ -462,8 +462,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/open-fintech/apis.yaml
 - name: Open Science Framework
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/open-science-framework/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/payrun-io/apis.yaml
 - name: Postmark
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/postmark/apis.yaml
 - name: Reverb
@@ -472,7 +472,7 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/soundcloud/apis.yaml
 - name: Swagger
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/swagger/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/taxamo/apis.yaml
 - name: VictorOps
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/victorops/apis.yaml
@@ -508,24 +508,22 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bc-geographical-names/apis.yaml
 - name: HHS Media Services
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/hhs-media-services/apis.yaml
-- name: SwaggerHub
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/swaggerhub/apis.yaml
+- name: Swagger
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/swagger/apis.yaml
 - name: 3scale
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/3scale/apis.yaml
 - name: 3scale
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/3scale/apis.yaml
 - name: 3scale
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/3scale/apis.yaml
+- name: UK National Archives
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/uk-national-archives/apis.yaml
 - name: AT&T Dev Program
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/att-dev-program/apis.yaml
 - name: Bitly
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bitly/apis.yaml
 - name: Bitly
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/bitly/apis.yaml
-- name: UK National Archives Discovery
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/uk-national-archives-discovery/apis.yaml
-- name: TelAPI
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/telapi/apis.yaml
 - name: Constant Contact
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/constant-contact/apis.yaml
 - name: Envestnet
@@ -562,6 +560,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/loginradius/apis.yaml
 - name: Mynewsdesk
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/mynewsdesk/apis.yaml
+- name: TelAPI
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/telapi/apis.yaml
 - name: NewsCred
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/newscred/apis.yaml
 - name: NewsWhip

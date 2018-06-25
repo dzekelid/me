@@ -1,14 +1,14 @@
 ---
 name: Pingdom
 x-slug: pingdom
-description: Monitor your website???s availability and performance for free with Pingdom
+description: Monitor your websites availability and performance for free with Pingdom
   and always be the first to know when your website is down. No installation required.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
 x-kinRank: "7"
-x-alexaRank: "5592"
+x-alexaRank: "5876"
 tags: Me
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,9 +28,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/pingdom/apiversionservertime-get-openapi.md
 - name: Servertime API
   x-api-slug: servertime-api
-  description: Monitor your website???s availability and performance for free with
-    Pingdom and always be the first to know when your website is down. No installation
-    required.
+  description: Monitor your websites availability and performance for free with Pingdom
+    and always be the first to know when your website is down. No installation required.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
   baseURL: https://api.pingdom.com//
@@ -55,6 +54,8 @@ x-common:
   url: sales@pingdom.com
 - type: x-github
   url: https://github.com/Pingdom
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pingdom
 - type: x-pricing
   url: https://www.pingdom.com/pricing
 - type: x-twitter
