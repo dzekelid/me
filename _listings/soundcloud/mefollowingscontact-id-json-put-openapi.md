@@ -16,49 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /tracks/{track_id}/comments.json:
-    get:
-      summary: Get Tracks Track Comments
-      description: Returns comments of a track by track id
-      operationId: getTracksTrackComments.json
-      x-api-path-slug: trackstrack-idcomments-json-get
-      parameters:
-      - in: query
-        name: consumer_key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Tracks
-      - Track
-      - Comments
-    post:
-      summary: Post Tracks Track Comments
-      description: Posts a comments to a track by track id
-      operationId: postTracksTrackComments.json
-      x-api-path-slug: trackstrack-idcomments-json-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - Tracks
-      - Track
-      - Comments
-  /users/{user_id}/comments.json:
-    get:
-      summary: Get Users Comments
-      description: Returns a collection of comments made by user id
-      operationId: getUsersUserComments.json
-      x-api-path-slug: usersuser-idcomments-json-get
-      parameters:
-      - in: query
-        name: consumer_key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - Comments
   /me.json:
     get:
       summary: Get Me

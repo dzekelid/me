@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Click Meter
 x-complete: 1
@@ -42,26 +41,3 @@ paths:
       tags:
       - Me
       - Plan
-  /tags/{tagId}/name:
-    put:
-      summary: Fast patch a tag name
-      description: Fast patch a tag name.
-      operationId: putTagsTagName
-      x-api-path-slug: tagstagidname-put
-      parameters:
-      - in: body
-        name: data
-        description: The body patch
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: tagId
-        description: Id of the tag
-      responses:
-        200:
-          description: OK
-      tags:
-      - Tags
-      - TagId
-      - Name
----

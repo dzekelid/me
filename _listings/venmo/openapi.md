@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Venmo
 x-complete: 1
@@ -26,40 +25,3 @@ paths:
           description: OK
       tags:
       - Me
-  /payments:
-    get:
-      summary: Get Payments
-      description: Get payments.
-      operationId: getPayments
-      x-api-path-slug: payments-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Payments
-    post:
-      summary: Post Payments
-      description: Post payments.
-      operationId: postPayments
-      x-api-path-slug: payments-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - Payments
-  /payments/{id}:
-    get:
-      summary: Get Payments
-      description: Get payments.
-      operationId: getPayments
-      x-api-path-slug: paymentsid-get
-      parameters:
-      - in: path
-        name: id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Payments
-      - Id
----

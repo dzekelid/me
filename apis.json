@@ -1,0 +1,413 @@
+{
+	"name": "Streadata.io API Gallery - Me",
+	"description": "This is a repository of me APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/me.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://me.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cisco WebEx",
+			"x-api-slug": "cisco-webex",
+			"description": "Cisco Webex is the leading enterprise solution for video conferencing & web conferencing today. This secure software-based platform for video & audio conferencing, group messaging & webinars helps organizations be more productive.Participants can join ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg",
+			"humanURL": "https://webex.com",
+			"baseURL": "https://api.ciscospark.com//v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/cisco-webex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ge.tt",
+			"x-api-slug": "ge-tt",
+			"description": "Extremely simple realtime filesharing. No signup required. Share any number of photos, videos, music, anything - in seconds - no matter how large.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1012-ge-tt.jpg",
+			"humanURL": "http://ge.tt",
+			"baseURL": "https://open.ge.tt//1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/ge-tt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Venmo",
+			"x-api-slug": "venmo",
+			"description": "Venmo is a free digital wallet that lets you make and share payments with friends. You can easily split the bill, cab fare, or much more. Download the iOS or Android app or sign up on Venmo.com today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg",
+			"humanURL": "https://venmo.com/",
+			"baseURL": "https://api.venmo.com//v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/venmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Digital River",
+			"x-api-slug": "digital-river",
+			"description": "Digital Riveris a public company that provides global ecommerce, payments and marketing services. In 2013, Digital River processed more than $30 billion in online transactions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png",
+			"humanURL": "https://digitalriver.com",
+			"baseURL": "https://store.digitalriver.com//store/{mysite}",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/digital-river/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CallFire",
+			"x-api-slug": "callfire",
+			"description": "Grow your business with virtual phone numbers, IVR, voice broadcasting, mass text messaging services and power dialing. Try CallFire for FREE!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg",
+			"humanURL": "http://www.callfire.com",
+			"baseURL": "https://www.callfire.com//v2",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/callfire/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MotaWord",
+			"x-api-slug": "motaword",
+			"description": "MotaWord is the world&rsquo;s fastest, lowest cost, cloud-based, collaborative business translation platform.MotaWord combines the efforts of talented human translators through the use of a cloud based translation platform. Our translators are able to login simultaneously into projects that fit their language combination and provide translation service collaboratively - while also seeing the whole content for contextual purposes. This ability to simultaneously utilize multiple translators makes MotaWord exceptionally fast and highly accurate.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png",
+			"humanURL": "http://www.motaword.com",
+			"baseURL": "https://api.motaword.com//",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/motaword/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Medium",
+			"x-api-slug": "medium",
+			"description": "Medium is an online publishing platform founded by Twitter co-founder Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional contributions and professional, paid contributions, an example of social journalism.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
+			"humanURL": "https://medium.com/",
+			"baseURL": "https://api.medium.com//v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/medium/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Tasks",
+			"x-api-slug": "google-tasks",
+			"description": "The Google Tasks API lets you search, read, and update Google Tasks content and metadata. This document describes how to use a RESTful calling style and client libraries for various programming languages (currently Java, Python, and PHP) to access and edit Google Tasks data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-tasks-icon.png",
+			"humanURL": "https://developers.google.com/google-apps/tasks/",
+			"baseURL": "://www.googleapis.com//tasks/v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-tasks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CircleCI",
+			"x-api-slug": "circleci",
+			"description": "CircleCI???s continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.  Build for Linux, macOS, and Android, in the cloud or behind your firewall.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg",
+			"humanURL": "http://circleci.com",
+			"baseURL": "https://circleci.com//api/v1",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/circleci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParetoNetwork",
+			"x-api-slug": "paretonetwork",
+			"description": "A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg",
+			"humanURL": "https://www.pareto.network",
+			"baseURL": "https:////",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/paretonetwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"x-api-slug": "azure-blockchain-workbench",
+			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/",
+			"baseURL": "https:////",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/azure-blockchain-workbench/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Me",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Me",
+	"include": [
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "Cisco WebEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/cisco-webex/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "Ge.tt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/ge-tt/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "Venmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/venmo/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Digital River",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/digital-river/apis.yaml"
+		},
+		{
+			"name": "CallFire",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/callfire/apis.yaml"
+		},
+		{
+			"name": "MotaWord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/motaword/apis.yaml"
+		},
+		{
+			"name": "Medium",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/medium/apis.yaml"
+		},
+		{
+			"name": "Google Tasks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/google-tasks/apis.yaml"
+		},
+		{
+			"name": "CircleCI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/circleci/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "ParetoNetwork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/paretonetwork/apis.yaml"
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/azure-blockchain-workbench/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/me/master/_listings/xibo/apis.yaml"
+		}
+	]
+}
